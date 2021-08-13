@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <a-marker-camera  type = 'pattern'  url = "pattern-AR.patt"> 
+
+      <a-box position="0 0.5 0" height="0.5" width="0.5" material="color: gray;"></a-box>
+      <!--<a-entity gltf-model="url(model/remington1100.glb)"></a-entity>-->
+
+      </a-marker-camera >
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
